@@ -20,46 +20,62 @@ const navLinks = [
 const cocktails = [
     {
         id: 1,
-        title: "Chapel Hill Shiraz",
-        price: 12,
+        label: "Chapel Hill Shiraz",
+        country: 'Австралия',
+        details: '250мл',
+        price: 450,
     },
     {
         id: 2,
-        title: "Caten Malbee",
-        price: 44,
+        label: "Caten Malbee",
+        country: 'Швейцария',
+        details: 'Бутыль',
+        price: 800,
     },
     {
         id: 3,
-        title: "Rhino Pale Ale",
-        price: 27,
+        label: "Rhino Pale Ale",
+        country: 'Америка',
+        details: '560мл',
+        price: 680,
     },
     {
         id: 4,
-        title: "Irish Guinness",
-        price: 32,
+        label: "Irish Guinness",
+        country: 'Ирландия',
+        details: '680мл',
+        price: 900,
     },
 ];
 
 const mocktails = [
     {
         id: 1,
-        title: "Tropical Bloom",
-        price: 41,
+        label: "Tropical Bloom",
+        country: 'Тайланд',
+        details: 'Бутылёк',
+        price: 550,
     },
     {
         id: 2,
-        title: "Passionfruit Mint",
-        price: 30,
+        label: "Passionfruit Mint",
+        country: 'Индонезия',
+        details: '450мл',
+        price: 420,
     },
     {
         id: 3,
-        title: "Citrus Glow",
-        price: 19,
+        label: "Citrus Glow",
+        country: 'Бразилия',
+        details: '350мл',
+        price: 390,
     },
     {
         id: 4,
-        title: "Lavender Fizz",
-        price: 23,
+        label: "Lavender Fizz",
+        country: 'Франция',
+        details: '500мл',
+        price: 740,
     },
 ];
 

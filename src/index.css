@@ -115,7 +115,7 @@ body {
                 }
 
                 p:last-of-type {
-                    @apply 2xl:text-start text-center;
+                    @apply 2xl:text-start;
                 }
 
                 .view-cocktails {
@@ -140,11 +140,11 @@ body {
     #cocktails {
         @apply relative min-h-dvh w-full overflow-hidden;
 
-        #c-left-leaf {
+        #cocktails-left-leaf {
             @apply absolute left-0 md:bottom-0 md:top-auto -top-20 md:w-fit w-1/3;
         }
 
-        #c-right-leaf {
+        #cocktails-right-leaf {
             @apply absolute right-0 md:bottom-0 md:top-auto -top-20 md:w-fit w-1/3;
         }
 
