@@ -52,7 +52,8 @@ const Hero = () => {
             }
         })
         .to('.right-leaf', { y: 200 }, 0)
-        .to('.left-leaf', { y: -200 }, 0);
+        .to('.left-leaf', { y: -200 }, 0)
+        .to('.arrow', { y: 100 }, 0);
 
         const startAnimationValue = isMobile ? 'top 50%' : 'center 60%';
         const endAnimationValue = isMobile ? '120% top' : 'bottom top';
@@ -85,6 +86,8 @@ const Hero = () => {
                 <img src="/images/hero-right-leaf.png" alt="right-leaf" className='right-leaf' />
 
                 <div className="body">
+                    <img src="/images/arrow.png" alt="arrow" className="arrow absolute left-[100%]" />
+
                     <div className="content">
                         <div className="space-y-5 hidden md:block">
                             <p className="additional-text">Классические. Современные. Вкусные</p>
@@ -103,7 +106,6 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-
             </section>
 
             <div className="video absolute inset-0">
