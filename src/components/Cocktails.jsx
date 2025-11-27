@@ -35,7 +35,7 @@ const Cocktails = () => {
                                         <h3>{label}</h3>
                                         <p>{country} | {details}</p>
                                     </div>
-                                    <span>- {price}</span>
+                                    <span>- {price} ₽</span>
                                 </li>
                             ))}
                         </ul>
@@ -55,7 +55,7 @@ const Cocktails = () => {
                                         <h3>{label}</h3>
                                         <p>{country} | {details}</p>
                                     </div>
-                                    <span>- {price}</span>
+                                    <span>- {price} ₽</span>
                                 </li>
                             ))}
                         </ul>

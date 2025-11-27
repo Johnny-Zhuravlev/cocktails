@@ -93,7 +93,7 @@ body {
         @apply relative z-10 min-h-dvh w-full border border-transparent;
 
         h1 {
-            @apply md:mt-32 mt-40 text-8xl md:text-[20vw] leading-none text-center font-modern-negra;
+            @apply md:mt-32 mt-40 text-8xl md:text-[18vw] leading-none text-center font-modern-negra;
         }
 
         .left-leaf {
@@ -126,7 +126,7 @@ body {
                     }
 
                     a {
-                        @apply font-semibold opacity-80 2xl:text-start text-center hover:text-yellow;
+                        @apply font-semibold opacity-80 2xl:text-start text-yellow-200 hover:text-yellow-400;
                     }
                 }
             }
@@ -237,6 +237,15 @@ body {
 
             img {
                 @apply object-cover w-full h-full;
+            }
+        }
+
+        .benefits__list {
+            @apply flex flex-col gap-3;
+
+        
+            > p > div {
+                opacity: 1 !important;
             }
         }
     }

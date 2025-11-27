@@ -78,7 +78,7 @@ const Hero = () => {
         <>
             <section id="hero" className="noisy">
                 <h1 className='title'>
-                    DRINKS
+                    коктычи
                 </h1>
 
                 <img src="/images/hero-left-leaf.png" alt="left-leaf" className='left-leaf' />
@@ -87,18 +87,18 @@ const Hero = () => {
                 <div className="body">
                     <div className="content">
                         <div className="space-y-5 hidden md:block">
-                            <p className="additional-text">Classic. Modern. Future</p>
+                            <p className="additional-text">Классические. Современные. Вкусные</p>
                             <p className="text">
-                                Sip the Spirit <br /> of Summer
+                                Глотни кусочек <br /> свежего лета
                             </p>
                         </div>
 
                         <div className="view-cocktails">
                             <p className="text">
-                                Every cocktail on our menu is a blend of premium ingredients, creative flair, and timeless recipes — designed to delight your senses. 
+                                Каждый напиток в нашем меню - это купаж премиальных ингридиентов и творчества, созданный доставить вам удовольствие.
                             </p>
                             <a href="#cocktails" className="additional-text">
-                                View cocktails
+                                Смотреть все напитки
                             </a>
                         </div>
                     </div>
